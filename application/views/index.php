@@ -1,0 +1,161 @@
+<html>
+<head>
+  <title>The Potato Town</title>
+<link rel="stylesheet" type="text/css" href="<?php echo(BOOTS.'css/bootstrap.min.css') ?>">
+
+  <style type='text/css' media='all'>@import url('../assets/stylesheets/general.css');</style>
+  <style type='text/css' media='all'>@import url('../assets/stylesheets/index.css');</style>
+</head>
+<body>
+  <div class="container">
+    <div class="masthead">
+      <!-- Search bar and social media  -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="row">
+            <form class="navbar-form" role="search">
+              <div class="col-md-8">
+               <input type="text" class="form-control" placeholder="Search">
+             </div>
+             <div class="col-md-4">
+               <button type="submit" class="btn-sm btn-default">Search</button>
+             </div>
+           </form>
+         </div>
+       </div>  
+
+       <div class="col-md-offset-3 col-md-5">
+        <div class="row">
+          <div class="col-md-7">
+            <p> "for contact us please call xxx-xxx-xxx" </p>
+          </div>
+          <div class="col-md-5">
+            <span class="glyphicon glyphicon-search"></span>
+            <span class="glyphicon glyphicon-search"></span>
+            <span class="glyphicon glyphicon-search"></span>
+            <span class="glyphicon glyphicon-search"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Divider Solid -->
+    <div class="row pad20px">
+      <div class="clearer"></div>
+      <div class="divider solid">
+      </div>
+    </div>
+
+    <!-- Carousel for sliding image -->
+    <div class="row">
+      <div class="col-md-offset-2 col-md-6">
+        <div id="carousel-example-generic" class="carousel slide" style="height: 300px; width: 700px; display: block;">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="../assets/img/example/1.jpg" alt="example1" style="height: 300px; width: 700px; display: block;">
+              <div class="carousel-caption">
+                This is an example image
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="../assets/img/example/2.jpg" alt="example2" style="height: 300px; width: 700px; display: block;">
+              <div class="carousel-caption">
+                This is an example image
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="../assets/img/example/3.jpg" alt="example3" style="height: 300px; width: 700px; display: block;">
+              <div class="carousel-caption">
+                This is an example image
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="icon-prev"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="icon-next"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Divider Solid -->
+    <div class="row pad20px">
+      <div class="clearer"></div>
+      <div class="divider solid">
+      </div>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <ul class="nav nav-pills nav-justified">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Our Feed</a></li>
+          <li><a href="#">The Potatoes</a></li>
+          <li><a href="#">The Story</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Divider Solid -->
+    <div class="row pad20px">
+      <div class="clearer"></div>
+      <div class="divider solid">
+      </div>
+    </div>
+
+    <!-- Big Promotional Picture -->
+    <div class="row">
+      <div class="col-md-offset-3 col-sm-8">
+        <img class="featurette-image img-responsive" data-src="holder.js/500x300" alt="">
+      </div>
+    </div>
+
+    <!-- Divider Solid -->
+    <div class="row pad20px">
+      <div class="clearer"></div>
+      <div class="divider solid">
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="mainContent row">
+      <div class="col-md-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+      </div>
+
+      <div class="col-md-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+      </div>
+
+      <div class="col-md-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Javascript-->
+
+<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="../assets/jQuery/jQuery.js"></script>
+<script src="../assets/javascripts/holder.min.js"></script>
+</body>
+</html>

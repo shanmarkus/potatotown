@@ -36,6 +36,10 @@ define('FOPEN_READ_WRITE_CREATE',				'a+b');
 define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
-
+define('URL','http://localhost/thepotatotown/web/application/');
+define('IMG',URL.'assets/img/');
+define('BOOTS',URL.'assets/bootstrap/');
+define('CSS',URL.'assets/css/');
+define('JS',URL.'assets/js/');
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */
