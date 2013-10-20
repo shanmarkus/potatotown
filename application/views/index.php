@@ -1,10 +1,10 @@
 <html>
 <head>
   <title>The Potato Town</title>
-<link rel="stylesheet" type="text/css" href="<?php echo(BOOTS.'css/bootstrap.min.css') ?>">
+  <link rel="stylesheet" type="text/css" href="<?php echo(BOOTS.'css/bootstrap.min.css') ?>">
+  <link rel="stylesheet" type="text/css" href="<?php echo(CSS.'general.css') ?>">
+  <link rel="stylesheet" type="text/css" href="<?php echo(CSS.'index.css') ?>">
 
-  <style type='text/css' media='all'>@import url('../assets/stylesheets/general.css');</style>
-  <style type='text/css' media='all'>@import url('../assets/stylesheets/index.css');</style>
 </head>
 <body>
   <div class="container">
@@ -153,9 +153,9 @@
 </div>
 
 <!-- Javascript-->
+<script src="<?php echo (BOOTS.'js/bootstrap.min.js') ?>"></script>
+<script src="<?php echo (JS.'holder.min.js') ?>"></script>
+<script src="<?php echo (JQUERT.'jQuery.js') ?>"></script>
 
-<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="../assets/jQuery/jQuery.js"></script>
-<script src="../assets/javascripts/holder.min.js"></script>
 </body>
 </html>
